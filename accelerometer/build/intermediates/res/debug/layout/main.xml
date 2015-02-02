@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp">
+
+    
+	<Button android:text="@+id/Button01" android:id="@+id/Button01"
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="23sp"
+        android:background="#4adb6e3d"></Button>
+
+	<Button android:text="@+id/Button03" android:id="@+id/Button03"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="23sp"
+        android:background="#4adb6e3d"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/Button01"
+        android:layout_alignParentLeft="true"></Button>
+	<Button android:text="@+id/Button04" android:id="@+id/Button04"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="23sp"
+        android:background="#4adb6e3d"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Button03"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"></Button>
+	<Button android:id="@+id/Button05" android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:text="@+id/Button05" android:textSize="23sp"
+        android:background="#4adb6e3d"
+        android:layout_below="@+id/Button04"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"></Button>
+	
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/Button05"
+	    android:layout_marginTop="75dp"
+	    android:orientation="vertical"
+	    >
+	    
+	    <TextView android:text="TextView" android:id="@+id/textView1" android:textColor="#ff00ff00"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="23sp"></TextView>
+	<TextView android:text="TextView" android:id="@+id/textView2" android:textColor="#ffff0000"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="23sp" ></TextView>
+	<TextView android:text="TextView" android:id="@+id/textView3" android:textColor="#ffffff00"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="23sp"></TextView>
+	</LinearLayout>
+
+</RelativeLayout>
+
+
+
+<!-- From: file:/F:/Dev/accelerometer/res/layout/main.xml -->

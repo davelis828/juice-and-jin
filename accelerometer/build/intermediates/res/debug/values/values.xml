@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/Dev/accelerometer/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">eScience</string>
+    <string name="hello">Hello World, Main!</string>
+</resources>

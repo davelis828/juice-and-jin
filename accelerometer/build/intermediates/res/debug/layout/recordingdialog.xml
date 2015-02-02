@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"  >
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Pick action:"
+		android:id="@+id/TextView01" android:textSize="23sp" android:gravity="center" android:textColor="#ff00ffff"></TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Log 3-axis"
+		android:id="@+id/ButtonXYZ" android:textSize="23sp" ></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Log normalized"
+		android:id="@+id/ButtonNorm" android:textSize="23sp" ></Button>
+		<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Log both(3axis and normalized)"
+		android:id="@+id/ButtonParallel" android:textSize="23sp" ></Button>
+
+</TableLayout>
+<!-- From: file:/F:/Dev/accelerometer/res/layout/recordingdialog.xml -->

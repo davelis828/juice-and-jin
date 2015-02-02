@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Pick action:"
+		android:id="@+id/TextView01" android:textSize="23sp" android:gravity="center" android:textColor="#ff00ffff"></TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Stop 3-axis log"
+		android:id="@+id/ButtonXYZS" android:textSize="23sp" ></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Stop normalized log"
+		android:id="@+id/ButtonNormS" android:textSize="23sp" ></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Stop all"
+		android:id="@+id/ButtonStopAll" android:textSize="23sp" ></Button>
+</TableLayout>
